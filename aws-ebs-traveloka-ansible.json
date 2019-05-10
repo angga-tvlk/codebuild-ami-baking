@@ -94,7 +94,7 @@
     "aws_associate_public_ip_address": "true",
     "aws_enhanced_networking": "false",
     "aws_instance_profile": "{{ env `APP_TEMPLATE_INSTANCE_PROFILE` }}",
-    "aws_instance_type": "t2.small",
+    "aws_instance_type": "t3.nano",
     "aws_region": "{{ env `AWS_REGION` }}",
     "aws_secret_key": "",
     "aws_ssh_username": "ubuntu",
