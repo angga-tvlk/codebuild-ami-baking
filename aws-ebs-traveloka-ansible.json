@@ -42,6 +42,7 @@
         "Application": "{{ user `app_type` }}",
         "BaseAmiId": "{{ .SourceAMI }}",
         "Name": "{{ user `ami_name_prefix` }}{{ user `app_name` }}-{{ user `app_role` }}-{{ user `app_version` }}{{ user `ami_name_suffix` }}/{{ timestamp }}",
+        "Environment": "management",
         "ProductDomain": "{{ user `app_product_domain` }}",
         "Service": "{{ user `app_name` }}",
         "ServiceVersion": "{{ user `app_version` }}",
